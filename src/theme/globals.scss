@@ -1,0 +1,108 @@
+html, body, * {
+    b, strong {
+        font-weight: 700;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Mono, sans-serif;
+}
+
+#__nuxt {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p, span {
+    line-height: 120%;
+}
+
+
+html, body {
+    @media all and (max-width: 1920px) {
+        font-size: 19px;
+        .tablet, .mobile {
+            display: none !important;
+        }
+        .desktop {
+            display: block !important;
+        }
+    }
+
+    @media all and (max-width: 1920px) {
+        font-size: 18px;
+        .tablet, .mobile {
+            display: none !important;
+        }
+        .desktop {
+            display: block !important;
+        }
+    }
+
+    @media all and (max-width: 1750px) {
+        font-size: 17px;
+    }
+
+    @media all and (max-width: 1600px) {
+        font-size: 16px;
+    }
+
+    @media all and (max-width: 1360px) {
+        font-size: 15.5px;
+    }
+
+    @media all and (max-width: 1200px) {
+        font-size: 15px;
+    }
+
+    @media all and (max-width: 1024px) {
+        font-size: 14.5px;
+        .mobile, .desktop {
+            display: none !important;
+        }
+        .tablet {
+            display: block !important;
+        }
+    }
+
+    @media all and (max-width: 920px) {
+        font-size: 14px;
+    }
+
+    @media all and (max-width: 768px) {
+        font-size: 13px;
+        .tablet, .desktop {
+            display: none !important;
+        }
+        .mobile {
+            display: block !important;
+        }
+    }
+
+    @media all and (max-width: 640px) {
+        font-size: 12.5px;
+    }
+
+    @media all and (max-width: 360px) {
+        font-size: 12px;
+    }
+
+    @media all and (max-width: 281px) {
+        font-size: 11px;
+    }
+}
